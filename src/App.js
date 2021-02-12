@@ -35,10 +35,11 @@ class App extends React.Component {
               }
             }
             // TO CONSOLE.LOG ON A SETSTATE WE HAVE TO DO IT AS A SECOND PARAMETER
-            // ,
-            // () => {  
-            //   console.log(this.state);
-            // }
+             ,
+             () => {  
+               console.log(this.state);
+             }
+            //
           );
         });
       }
